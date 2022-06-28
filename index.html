@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-primary">
+    
+    <header class="container-fluid mb-5 pe-5 ps-5 text-white text-center">
+
+        
+        <div class="bg-image col-md bg-secondary rounded p-4 mt-4 ">
+        <h1 class="  pb-3"> Engager un apprenti pour votre entreprise</h1>
+        <h2> Decouvrez mes atouts et mes projets pour visualiser au mieux l'apport que je pourrai apporter a vos projets </h2>
+        </div>
+    </header>
+
+    <div class="container d-flex justify-content-center mb-3">
+        <div class="col-md-6 bg-success rounded m-5 ">
+            <div class="row">
+            <div class="col-md d-flex">
+                
+            <img class ="d-block mx-auto w-100 ms-5 mt-5 mb-5 rounded-circle "src="img/mecserieux.jpg" alt="">
+            </div>
+            <div class="col-md-8 text-white mt-5 pe-5">
+            <h3 class="text-center"> Pourquoi m'engager ?</h3>
+             <ul>
+                <li class="pb-2 mt-3"> <img src="img/check(1).png" class="iconyes m-2" alt=""> Peux faire du front end et back end</li>
+                <li class="pb-2"> <img src="img/check(1).png" class="iconyes m-2" alt="">Maitrise du SASS, BOOTSTRAP, FLEXBOX</li>
+                <li class="pb-2"> <img src="img/check(1).png" class="iconyes m-2" alt="">Maitrise le javascript, SQL et PHP</li>
+                <li class="pb-2"><img src="img/check(1).png" class="iconyes m-2" alt="">Capable de s'adapter et polyvalent</li> 
+             </ul>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 bg-success rounded h-auto d-flex flex-column pb-5 pe-5 ps-5">
+            <h3 class="text-white text-center mt-3">Interessé ? contacter moi ! </h3>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkyjayy" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label class="text-white fs-5" for="full-name">Votre nom</label>
+                  <input class="rounded"type="text" name="name" id="full-name" placeholder="nom prénom" required="">
+                  <label class="text-white fs-5" for="email-address">Adresse EMAIL</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                  <label class="text-white fs-5" for="message">Message</label>
+                  <textarea rows="2" name="message" id="message" placeholder="Lien du poste à pourvoir, nom de l'entreprise,..." required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset> 
+                <div class="colmd-6 d-flex justify-content-center">
+                <input class="bg-warning w-75 rounded"  type="submit" value="Submit">
+
+                <div class="col-md-6">
+                <div id="Progress_Status">
+                <div id="myprogressBar"></div>
+                <button onclick="update()">Start Download</button> 
+                </div>
+            </div>
+              </form>
+        </div>
+            
+        
+        </div>
+    </div>
+</div>
+        <div class="bg-image container bg-secondary mt-2 text-white rounded">
+
+                <h3 class=" d-flex justify-content-center mb-5 mt-5 pt-2">Un apercu de mes projets réalisé en formation sur mon github</h3>
+                <div class="row">
+                <ul class="d-flex justify-content-evenly">
+                    
+                    <li> <a class= "fs-5" href="https://github.com/LeMatthieu/Projet2">Page d'acceuil airbnb</a></li>
+                    <li><a class= "fs-5" href="https://github.com/LeMatthieu/autorisationRequise">Projet extension en JS</a></li>
+                    <li><a class= "fs-5" href="https://github.com/LeMatthieu/CVmichaeljord">CV michael jordan</a></li>
+                </ul>
+                
+                
+            </div>
+        </div>
+        <canvas id="canvas"></canvas>
+        <script type="text/javascript" src="confeti.js"></script> 
+        <script type="text/javascript" src="progressbar.js"></script> 
+</body>
+</html>
