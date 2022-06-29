@@ -33,11 +33,18 @@
                 <li class="pb-2"> <img src="img/check(1).png" class="iconyes m-2" alt="">Maitrise le javascript, SQL et PHP</li>
                 <li class="pb-2"><img src="img/check(1).png" class="iconyes m-2" alt="">Capable de s'adapter et polyvalent</li> 
              </ul>
+             <div class="ms-5 rounded" id="Progress_Status">
+                <div id="myprogressBar"></div>
+                <button class="ms-5 rounded bg-warning "onclick="update()">Télécharger</button> 
             </div>
+             <h3 class="mb-3 ms-2">Télécharger mon CV</h3>
+            </div>
+
             </div>
         </div>
+        
         <div class="col-md-6 bg-success rounded h-auto d-flex flex-column pb-5 pe-5 ps-5">
-            <h3 class="text-white text-center mt-3">Interessé ? contacter moi ! </h3>
+            <h3 class="text-white text-center mt-3">Interessé ? Contactez-moi ! </h3>
             <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkyjayy" method="post">
                 <fieldset id="fs-frm-inputs">
                   <label class="text-white fs-5" for="full-name">Votre nom</label>
@@ -49,12 +56,10 @@
                   <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                 </fieldset> 
                 <div class="colmd-6 d-flex justify-content-center">
-                <input class="bg-warning w-75 rounded"  type="submit" value="Submit">
+                <input class="bg-warning w-75 rounded mt-3"  type="submit" value="Submit">
 
-                <div class="col-md-6">
-                <div id="Progress_Status">
-                <div id="myprogressBar"></div>
-                <button onclick="update()">Start Download</button> 
+                
+               
                 </div>
             </div>
               </form>
